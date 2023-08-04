@@ -47,13 +47,13 @@ Connect with me to explore the world of tech, exchange ideas, and build somethin
 
 <p align="center">
   <a href="mailto:aadityaz2077@gmail.com">
-    <img src="https://raw.githubusercontent.com/AadiXC0DE/AadiXC0DE/main/assets/email_icon.png" alt="Email" height="50" />
+    Mail
   </a>
   <a href="https://twitter.com/AadiChowdhury7" target="_blank">
-    <img src="https://raw.githubusercontent.com/AadiXC0DE/AadiXC0DE/main/assets/twitter_icon.png" alt="Twitter" height="50" />
+    Twitter
   </a>
   <a href="https://www.linkedin.com/in/aaditya-chowdhury-14a5a921b" target="_blank">
-    <img src="https://raw.githubusercontent.com/AadiXC0DE/AadiXC0DE/main/assets/linkedin_icon.png" alt="LinkedIn" height="50" />
+    Linkedin
   </a>
 </p>
 
@@ -64,7 +64,7 @@ Want to learn more about my experiences, skills, and achievements? Check out my 
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1s5TAmjB1stNI9qF5Dz3Rju1--pePXnA0/view?usp=drive_link">
-    <img src="https://raw.githubusercontent.com/AadiXC0DE/AadiXC0DE/main/assets/resume_icon.png" alt="Resume" height="50" />
+      Resume
   </a>
 </p>
 
