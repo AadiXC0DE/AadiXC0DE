@@ -1,10 +1,6 @@
 <h1 align="center">Hello, I'm Aaditya! 👋</h1>
 <h3 align="center">A Passionate Frontend Developer & Tech Enthusiast</h3>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AadiXC0DE/AadiXC0DE/main/assets/developer_banner.png" alt="Developer Banner" width="700"/>
-</div>
-
 <p align="center">
   <em>
     Welcome to my GitHub! Let's dive into the world of innovation and creativity! 🚀
@@ -47,7 +43,6 @@ I believe in the power of collaboration and creativity. My ability to effectivel
 ---
 
 ### 🎉 Let's Connect:
-
 Connect with me to explore the world of tech, exchange ideas, and build something amazing together! You can find me on:
 
 <p align="center">
