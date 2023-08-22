@@ -63,7 +63,7 @@ Connect with me to explore the world of tech, exchange ideas, and build somethin
 Want to learn more about my experiences, skills, and achievements? Check out my resume to get a comprehensive view of my journey in the world of frontend development:
 
 <p align="center">
-  <a href="https://drive.google.com/file/d/1s5TAmjB1stNI9qF5Dz3Rju1--pePXnA0/view?usp=drive_link">
+  <a href="https://drive.google.com/file/d/1kYs96JeYbfzBbfSIsHjzh5MpNc4sJiuO/view?usp=sharing>
       Resume
   </a>
 </p>
