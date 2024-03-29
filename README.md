@@ -3,7 +3,7 @@
 
 <p align="center">
   <em>
-    Welcome to my GitHub! Let's dive into the world of innovation and creativity! 🚀
+    Welcome to my GitHub! 🚀
   </em>
 </p>
 
@@ -59,19 +59,3 @@ Connect with me to explore the world of tech, exchange ideas, and build somethin
 
 ---
 
-📄 My Resume:
-Want to learn more about my experiences, skills, and achievements? Check out my resume to get a comprehensive view of my journey in the world of frontend development:
-
-<p align="center">
-  <a href="https://drive.google.com/file/d/1kYs96JeYbfzBbfSIsHjzh5MpNc4sJiuO/view?usp=sharing">
-      Resume
-  </a>
-</p>
-
----
-
-<div align="center">
-  <em>
-    Thank you for visiting my profile! Let's embark on a journey of innovation and creativity! 🌟
-  </em>
-</div>
