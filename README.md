@@ -33,7 +33,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aadixc0de&show_icons=true&locale=en&layout=compact" alt="Top Languages" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=aadixc0de&show_icons=true&theme=transparent"/>
+   <img src="https://github-readme-stats.vercel.app/api?username=aadixc0de&show_icons=true&locale=en" alt="GitHub Stats" height="150"/>
 </p>
 
 ---
