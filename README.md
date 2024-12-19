@@ -1,7 +1,7 @@
 <h1 align="center">Hello, I'm Aaditya! 👋</h1>
 <h3 align="center">A Passionate Frontend Developer & Tech Enthusiast</h3>
 
-<h2>Hey! I’m Aaditya, a frontend wizard 🪄 who’s worked with startups worldwide, teamed up with Fortune 500 giants, and even worked as a founding engineer to startups that got acquired. 🚀 I love crafting web magic that’s both functional and beautiful.</h2>
+<h5>Hey! I’m Aaditya, a frontend wizard 🪄 who’s worked with startups worldwide, teamed up with Fortune 500 giants, and even worked as a founding engineer to startups that got acquired. 🚀 I love crafting web magic that’s both functional and beautiful.</h2>
 
 ### 📫 Work with me:
 
