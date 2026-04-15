@@ -1,14 +1,19 @@
 <h1 align="center">Hey, I'm Aaditya 👋</h1>
-<h3 align="center">Frontend-focused developer building clean, fast, and usable web apps</h3>
+<h3 align="center">Frontend-heavy full stack dev • building fast, clean, production-ready apps</h3>
 
 <p align="center">
-I’ve worked with early-stage startups, collaborated with larger teams, and built products that actually ship and get used.  
-I enjoy taking ideas from 0 → 1 and turning them into simple, well-designed interfaces.
+I've worked across early-stage startups and product teams, building real features used by real users — from quick prototypes to production apps.  
+I like shipping fast, keeping things simple, and obsessing over UI details that most people ignore.
+</p>
+
+<p align="center">
+Worked with React, Next.js, Node, and a bit of everything around it — APIs, automation, integrations, and whatever gets the job done.  
+Also experimented with AI workflows, bots, and scrappy systems that actually make money / save time.
 </p>
 
 ---
 
-### 📫 Work with me:
+### 📫 Reach out
 
 <p>
   <a href="mailto:aadityaz2077@gmail.com">Mail</a>
@@ -18,13 +23,7 @@ I enjoy taking ideas from 0 → 1 and turning them into simple, well-designed in
 
 ---
 
-### 🌱 Currently exploring
-
-Golang, FastAPI, AI workflows (LangChain), and getting sharper with TypeScript.
-
----
-
-### 📈 GitHub Stats
+### 📈 Stats (because why not)
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aadixc0de&layout=compact" height="150"/>
