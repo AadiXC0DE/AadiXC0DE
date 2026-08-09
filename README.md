@@ -95,6 +95,10 @@ Strongest where design meets engineering: motion, design systems, and interfaces
 ---
 
 <p align="center">
-  Building something that needs to look and feel expensive?<br/>
-  <a href="mailto:aadityaz2077@gmail.com">aadityaz2077@gmail.com</a> · <a href="https://calendly.com/aadityaz2077/one-on-one">grab a slot</a>
+  If you're building something you care about, I'd love to hear about it.<br/>
+  My inbox is always open — for work, ideas, or just a good conversation about design.
+</p>
+
+<p align="center">
+  <a href="mailto:aadityaz2077@gmail.com">aadityaz2077@gmail.com</a> · <a href="https://calendly.com/aadityaz2077/one-on-one">book a call</a>
 </p>
