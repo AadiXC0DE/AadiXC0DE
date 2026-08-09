@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="404" height="214" viewBox="0 0 404 214" role="img">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#1C2230" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6B4A" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0.65" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.16"/>
+      <stop offset="55%" stop-color="#7C5CFF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="402.5" height="212.5" rx="14" fill="#0B0E14" stroke="url(#edge)" stroke-width="1.5"/>
+  <rect x="1.5" y="1.5" width="401" height="211" rx="13" fill="url(#glow)"/>
+  <text x="26" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#E6EDF3" letter-spacing="-0.2">Language mix</text>
+  <text x="26" y="60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500" fill="#7D8590">By bytes across 76 public repos</text>
+  <clipPath id="barClip"><rect x="26" y="86" width="352" height="10" rx="5"/></clipPath>
+  <rect x="26" y="86" width="352" height="10" rx="5" fill="#161B26"/>
+  <g clip-path="url(#barClip)">
+    <rect x="26.0" y="86" width="165.4" height="10" fill="#3178C6">
+      <animate attributeName="width" from="0" to="165.4" dur="0.7s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+    <rect x="191.4" y="86" width="68.1" height="10" fill="#DA5B0B">
+      <animate attributeName="width" from="0" to="68.1" dur="0.7s" begin="0.19s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+    <rect x="259.5" y="86" width="55.0" height="10" fill="#F1E05A">
+      <animate attributeName="width" from="0" to="55.0" dur="0.7s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+    <rect x="314.5" y="86" width="29.5" height="10" fill="#3572A5">
+      <animate attributeName="width" from="0" to="29.5" dur="0.7s" begin="0.37s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+    <rect x="344.0" y="86" width="14.5" height="10" fill="#663399">
+      <animate attributeName="width" from="0" to="14.5" dur="0.7s" begin="0.45999999999999996s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+    <rect x="358.5" y="86" width="12.4" height="10" fill="#E34C26">
+      <animate attributeName="width" from="0" to="12.4" dur="0.7s" begin="0.5499999999999999s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
+    </rect>
+  </g>
+  <g opacity="1">
+      <circle cx="30" cy="128" r="4.5" fill="#3178C6"/>
+      <text x="42" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">TypeScript</text>
+      <text x="194" y="132" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">47.0%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.2s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <circle cx="214" cy="128" r="4.5" fill="#DA5B0B"/>
+      <text x="226" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Jupyter Notebook</text>
+      <text x="378" y="132" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">19.3%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.27s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <circle cx="30" cy="154" r="4.5" fill="#F1E05A"/>
+      <text x="42" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">JavaScript</text>
+      <text x="194" y="158" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">15.6%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.34s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <circle cx="214" cy="154" r="4.5" fill="#3572A5"/>
+      <text x="226" y="158" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Python</text>
+      <text x="378" y="158" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">8.4%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.41000000000000003s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <circle cx="30" cy="180" r="4.5" fill="#663399"/>
+      <text x="42" y="184" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">CSS</text>
+      <text x="194" y="184" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">4.1%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.48000000000000004s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <circle cx="214" cy="180" r="4.5" fill="#E34C26"/>
+      <text x="226" y="184" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">HTML</text>
+      <text x="378" y="184" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590">3.5%</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.55s" fill="freeze"/>
+    </g>
+</svg>
