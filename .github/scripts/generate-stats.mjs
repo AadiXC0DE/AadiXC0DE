@@ -15,12 +15,12 @@ if (!TOKEN) {
 }
 
 const THEME = {
-  bg: '#0B0E14',
-  border: '#1C2230',
-  text: '#E6EDF3',
-  muted: '#7D8590',
-  accent: '#7C5CFF',
-  accent2: '#FF6B4A',
+  bg: '#0A0A0B',
+  border: '#232427',
+  rule: '#1A1B1E',
+  track: '#161719',
+  text: '#FAFAFA',
+  muted: '#8B8F96',
 };
 
 const LANG_COLOR = {
@@ -170,7 +170,7 @@ async function collect() {
     .map(([name, size]) => ({
       name,
       pct: (size / totalBytes) * 100,
-      color: LANG_COLOR[name] || THEME.accent,
+      color: LANG_COLOR[name] || '#6E7681',
     }));
 
   const since = Math.min(...years);
@@ -194,23 +194,14 @@ const compact = (n) => (n >= 1000 ? `${(n / 1000).toFixed(1).replace(/\.0$/, '')
 
 function card(width, height, inner) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img">
-  <defs>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="${THEME.accent}" stop-opacity="0.55"/>
-      <stop offset="55%" stop-color="${THEME.border}" stop-opacity="1"/>
-      <stop offset="100%" stop-color="${THEME.accent2}" stop-opacity="0.35"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="0.65" y2="1">
-      <stop offset="0%" stop-color="${THEME.accent}" stop-opacity="0.16"/>
-      <stop offset="55%" stop-color="${THEME.accent}" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="${THEME.accent}" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect x="0.75" y="0.75" width="${width - 1.5}" height="${height - 1.5}" rx="14" fill="${THEME.bg}" stroke="url(#edge)" stroke-width="1.5"/>
-  <rect x="1.5" y="1.5" width="${width - 3}" height="${height - 3}" rx="13" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="10" fill="${THEME.bg}" stroke="${THEME.border}" stroke-width="1"/>
   ${inner}
 </svg>
 `;
+}
+
+function label(x, y, text) {
+  return `<text x="${x}" y="${y}" font-family="${FONT}" font-size="9.5" font-weight="600" fill="${THEME.muted}" letter-spacing="0.9">${text.toUpperCase()}</text>`;
 }
 
 function statsCard(d) {
@@ -229,13 +220,13 @@ function statsCard(d) {
   const rowY = [112, 176];
 
   const cells = tiles
-    .map(([label, value], i) => {
+    .map(([text, value], i) => {
       const x = colX[i % 3];
       const y = rowY[Math.floor(i / 3)];
       return `<g opacity="1">
-      <text x="${x}" y="${y}" font-family="${FONT}" font-size="26" font-weight="700" fill="${THEME.text}" letter-spacing="-0.6">${value}</text>
-      <text x="${x}" y="${y + 19}" font-family="${FONT}" font-size="11" font-weight="500" fill="${THEME.muted}" letter-spacing="0.3">${label}</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="${0.12 + i * 0.07}s" fill="freeze"/>
+      <text x="${x}" y="${y}" font-family="${FONT}" font-size="27" font-weight="600" fill="${THEME.text}" letter-spacing="-1">${value}</text>
+      ${label(x, y + 18, text)}
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="${0.1 + i * 0.06}s" fill="freeze"/>
     </g>`;
     })
     .join('\n    ');
@@ -243,12 +234,9 @@ function statsCard(d) {
   return card(
     W,
     H,
-    `<text x="26" y="40" font-family="${FONT}" font-size="15" font-weight="700" fill="${THEME.text}" letter-spacing="-0.2">@${USER}</text>
-  <text x="26" y="60" font-family="${FONT}" font-size="11.5" font-weight="500" fill="${THEME.muted}">Building in public since ${d.since}</text>
-  <line x1="26" y1="76" x2="${W - 26}" y2="76" stroke="${THEME.border}" stroke-width="1"/>
-  <circle cx="${W - 34}" cy="36" r="4" fill="#3FB950">
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
+    `<text x="26" y="40" font-family="${FONT}" font-size="14.5" font-weight="600" fill="${THEME.text}" letter-spacing="-0.2">@${USER}</text>
+  <text x="26" y="59" font-family="${FONT}" font-size="11.5" font-weight="450" fill="${THEME.muted}">Building in public since ${d.since}</text>
+  <line x1="26" y1="76" x2="${W - 26}" y2="76" stroke="${THEME.rule}" stroke-width="1"/>
   ${cells}`,
   );
 }
@@ -264,7 +252,7 @@ function langCard(d) {
   const segments = d.languages
     .map((l, i) => {
       const w = Math.max((l.pct / 100) * barW, 2);
-      const seg = `<rect x="${cursor.toFixed(1)}" y="${barY}" width="${w.toFixed(1)}" height="10" fill="${l.color}">
+      const seg = `<rect x="${cursor.toFixed(1)}" y="${barY}" width="${w.toFixed(1)}" height="8" fill="${l.color}">
       <animate attributeName="width" from="0" to="${w.toFixed(1)}" dur="0.7s" begin="${0.1 + i * 0.09}s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1"/>
     </rect>`;
       cursor += w;
@@ -277,8 +265,8 @@ function langCard(d) {
       const x = 26 + (i % 2) * 184;
       const y = 132 + Math.floor(i / 2) * 26;
       return `<g opacity="1">
-      <circle cx="${x + 4}" cy="${y - 4}" r="4.5" fill="${l.color}"/>
-      <text x="${x + 16}" y="${y}" font-family="${FONT}" font-size="12" font-weight="600" fill="${THEME.text}">${l.name}</text>
+      <rect x="${x}" y="${y - 8}" width="8" height="8" rx="2" fill="${l.color}"/>
+      <text x="${x + 16}" y="${y}" font-family="${FONT}" font-size="12" font-weight="500" fill="${THEME.text}">${l.name}</text>
       <text x="${x + 168}" y="${y}" text-anchor="end" font-family="${FONT}" font-size="11" font-weight="500" fill="${THEME.muted}">${l.pct.toFixed(1)}%</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="${0.2 + i * 0.07}s" fill="freeze"/>
     </g>`;
@@ -288,10 +276,10 @@ function langCard(d) {
   return card(
     W,
     H,
-    `<text x="26" y="40" font-family="${FONT}" font-size="15" font-weight="700" fill="${THEME.text}" letter-spacing="-0.2">Language mix</text>
-  <text x="26" y="60" font-family="${FONT}" font-size="11.5" font-weight="500" fill="${THEME.muted}">By bytes, across ${d.repos} repositories</text>
-  <clipPath id="barClip"><rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5"/></clipPath>
-  <rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5" fill="#161B26"/>
+    `<text x="26" y="40" font-family="${FONT}" font-size="14.5" font-weight="600" fill="${THEME.text}" letter-spacing="-0.2">Language mix</text>
+  <text x="26" y="59" font-family="${FONT}" font-size="11.5" font-weight="450" fill="${THEME.muted}">By bytes, across ${d.repos} repositories</text>
+  <clipPath id="barClip"><rect x="${barX}" y="${barY}" width="${barW}" height="8" rx="4"/></clipPath>
+  <rect x="${barX}" y="${barY}" width="${barW}" height="8" rx="4" fill="${THEME.track}"/>
   <g clip-path="url(#barClip)">
     ${segments}
   </g>

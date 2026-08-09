@@ -63,10 +63,9 @@ platform. **50% faster** search, **30%** more engagement.
 |---|---|
 | **[Cursor Gallery](https://cursor-gallery.vercel.app/)** | 100+ animated cursors for shadcn/ui |
 | **[NeonKit](https://get-neonkit.vercel.app/)** | Neon React components, copy-paste ready |
-| **[MyBento](https://mybento.vercel.app/)** | Drag-and-drop bento grids that export real Tailwind |
 | **[Caldy](https://caldy.vercel.app/)** | Calendar and task management, done properly |
-| **[CraftMine](https://craft-mine.vercel.app/)** | Minecraft in the browser, on Three.js |
-| **[Serenity](https://github.com/AadiXC0DE/Serenity)** | AI therapy companion — Gemini + ElevenLabs |
+
+Plenty more sitting in private repos. I'll open-source them as they're ready.
 
 ---
 
@@ -84,8 +83,6 @@ Strongest where design meets engineering: motion, design systems, and interfaces
   <img src="./assets/github-stats.svg" alt="GitHub stats" width="470"/>
   <img src="./assets/top-langs.svg" alt="Language mix" width="396"/>
 </p>
-
-<p align="center"><sub>Generated straight from the GitHub API by a workflow in this repo — not a third-party card service, so they never load blank.</sub></p>
 
 ---
 

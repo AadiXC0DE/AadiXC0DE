@@ -1,52 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="214" viewBox="0 0 480 214" role="img">
-  <defs>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.55"/>
-      <stop offset="55%" stop-color="#1C2230" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#FF6B4A" stop-opacity="0.35"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="0.65" y2="1">
-      <stop offset="0%" stop-color="#7C5CFF" stop-opacity="0.16"/>
-      <stop offset="55%" stop-color="#7C5CFF" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#7C5CFF" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect x="0.75" y="0.75" width="478.5" height="212.5" rx="14" fill="#0B0E14" stroke="url(#edge)" stroke-width="1.5"/>
-  <rect x="1.5" y="1.5" width="477" height="211" rx="13" fill="url(#glow)"/>
-  <text x="26" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#E6EDF3" letter-spacing="-0.2">@AadiXC0DE</text>
-  <text x="26" y="60" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="500" fill="#7D8590">Building in public since 2021</text>
-  <line x1="26" y1="76" x2="454" y2="76" stroke="#1C2230" stroke-width="1"/>
-  <circle cx="446" cy="36" r="4" fill="#3FB950">
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
-  </circle>
+  <rect x="0.5" y="0.5" width="479" height="213" rx="10" fill="#0A0A0B" stroke="#232427" stroke-width="1"/>
+  <text x="26" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" fill="#FAFAFA" letter-spacing="-0.2">@AadiXC0DE</text>
+  <text x="26" y="59" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11.5" font-weight="450" fill="#8B8F96">Building in public since 2021</text>
+  <line x1="26" y1="76" x2="454" y2="76" stroke="#1A1B1E" stroke-width="1"/>
   <g opacity="1">
-      <text x="26" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">4.2k</text>
-      <text x="26" y="131" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Commits, all time</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.12s" fill="freeze"/>
+      <text x="26" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">4.2k</text>
+      <text x="26" y="130" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">COMMITS, ALL TIME</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.1s" fill="freeze"/>
     </g>
     <g opacity="1">
-      <text x="180" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">325</text>
-      <text x="180" y="131" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Merged PRs</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.19s" fill="freeze"/>
+      <text x="180" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">325</text>
+      <text x="180" y="130" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">MERGED PRS</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.16s" fill="freeze"/>
     </g>
     <g opacity="1">
-      <text x="334" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">76</text>
-      <text x="334" y="131" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Repositories</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.26s" fill="freeze"/>
+      <text x="334" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">76</text>
+      <text x="334" y="130" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">REPOSITORIES</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.22s" fill="freeze"/>
     </g>
     <g opacity="1">
-      <text x="26" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">821</text>
-      <text x="26" y="195" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Commits in 2026</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.33s" fill="freeze"/>
+      <text x="26" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">822</text>
+      <text x="26" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">COMMITS IN 2026</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.28s" fill="freeze"/>
     </g>
     <g opacity="1">
-      <text x="180" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">9</text>
-      <text x="180" y="195" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Repos contributed to</text>
+      <text x="180" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">9</text>
+      <text x="180" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">REPOS CONTRIBUTED TO</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.33999999999999997s" fill="freeze"/>
+    </g>
+    <g opacity="1">
+      <text x="334" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="27" font-weight="600" fill="#FAFAFA" letter-spacing="-1">6</text>
+      <text x="334" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="9.5" font-weight="600" fill="#8B8F96" letter-spacing="0.9">YEARS SHIPPING</text>
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.4s" fill="freeze"/>
-    </g>
-    <g opacity="1">
-      <text x="334" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6EDF3" letter-spacing="-0.6">6</text>
-      <text x="334" y="195" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#7D8590" letter-spacing="0.3">Years shipping</text>
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.47000000000000003s" fill="freeze"/>
     </g>
 </svg>
