@@ -65,6 +65,22 @@ async function gql(query, variables = {}) {
   return body.data;
 }
 
+// The default Actions token is a repo-scoped installation token: it cannot see
+// private repos or org PRs, so it reports materially smaller numbers. Writing
+// those would silently downgrade the committed cards, so bail instead.
+async function assertUserToken() {
+  const { viewer } = await gql('query { viewer { login } }');
+  if (viewer.login.toLowerCase() !== USER.toLowerCase()) {
+    console.error(
+      `Token belongs to "${viewer.login}", not "${USER}". It would undercount ` +
+        `private repos and org PRs, so the existing cards are being left alone.\n` +
+        `Add a classic PAT (scopes: repo, read:user) as the STATS_TOKEN secret to refresh them.`,
+    );
+    return false;
+  }
+  return true;
+}
+
 async function collect() {
   const base = await gql(
     `query($login:String!, $after:String) {
@@ -203,7 +219,7 @@ function statsCard(d) {
   const tiles = [
     ['Commits, all time', compact(d.commits)],
     ['Merged PRs', compact(d.mergedPRs)],
-    ['Public repos', compact(d.repos)],
+    ['Repositories', compact(d.repos)],
     [`Commits in ${d.latestYear}`, compact(d.commitsThisYear)],
     ['Repos contributed to', compact(d.contributedTo)],
     ['Years shipping', `${d.yearsShipping}`],
@@ -273,7 +289,7 @@ function langCard(d) {
     W,
     H,
     `<text x="26" y="40" font-family="${FONT}" font-size="15" font-weight="700" fill="${THEME.text}" letter-spacing="-0.2">Language mix</text>
-  <text x="26" y="60" font-family="${FONT}" font-size="11.5" font-weight="500" fill="${THEME.muted}">By bytes across ${d.repos} public repos</text>
+  <text x="26" y="60" font-family="${FONT}" font-size="11.5" font-weight="500" fill="${THEME.muted}">By bytes, across ${d.repos} repositories</text>
   <clipPath id="barClip"><rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5"/></clipPath>
   <rect x="${barX}" y="${barY}" width="${barW}" height="10" rx="5" fill="#161B26"/>
   <g clip-path="url(#barClip)">
@@ -282,6 +298,8 @@ function langCard(d) {
   ${legend}`,
   );
 }
+
+if (!(await assertUserToken())) process.exit(0);
 
 const data = await collect();
 await mkdir(OUT, { recursive: true });

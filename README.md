@@ -85,7 +85,7 @@ Strongest where design meets engineering: motion, design systems, and interfaces
   <img src="./assets/top-langs.svg" alt="Language mix" width="396"/>
 </p>
 
-<p align="center"><sub>Rendered daily from the GitHub API by a workflow in this repo. No third-party card service, so they never load blank.</sub></p>
+<p align="center"><sub>Generated straight from the GitHub API by a workflow in this repo — not a third-party card service, so they never load blank.</sub></p>
 
 ---
 
