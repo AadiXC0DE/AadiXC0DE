@@ -59,8 +59,18 @@ platform. **50% faster** search, **30%** more engagement.
 
 ## Things I build when nobody's paying me
 
+**[Graphe](https://usegraphe.com) — send in a team, not a prompt**
+My biggest build to date. An open-source agentic coding platform for the Mac desktop, built on
+[pi](https://github.com/earendil-works/pi). A full coding GUI: draw a run as blocks on a canvas and leave it
+to run in parallel (each in its own git worktree), helpers that work side-by-side, background jobs that
+outlast your attention, finished work that waits for review before it touches your folder, a design system
+it reads before it writes, and a browser beside the conversation it can drive itself. Every command
+sandboxed with an undoable timeline. Local-first, MIT, your keys and any model with the cost in plain sight.
+[[Website](https://usegraphe.com) · [Source](https://github.com/AadiXC0DE/graphe) · [Releases](https://github.com/AadiXC0DE/graphe/releases)]
+
 | Project | What it is |
 |---|---|
+| **[Graphe](https://usegraphe.com)** | Open-source agentic coding desktop built on pi — parallel agents, canvas runs, review-before-landing |
 | **[Cursor Gallery](https://cursor-gallery.vercel.app/)** | 100+ animated cursors for shadcn/ui |
 | **[NeonKit](https://get-neonkit.vercel.app/)** | Neon React components, copy-paste ready |
 | **[Caldy](https://caldy.vercel.app/)** | Calendar and task management, done properly |
