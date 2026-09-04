@@ -29,37 +29,37 @@
 
 ## Work worth talking about
 
-**Hero MotoCorp — apps on the EICMA Milan stage**
+**Hero MotoCorp: apps on the EICMA Milan stage**
 EICMA is the largest motorcycle show on earth. I worked with Hero's design team as lead developer on the
 apps they showed there, obsessing over micro-interactions and motion until the whole thing felt premium
 under the lights. Alongside that I maintain **Hero Echo**, the design system running across Vida's digital
 platforms, and build internal AI tooling that reads design files and drafts technical copy so their teams
 move faster.
 
-**Philips — Heartprint**
+**Philips: Heartprint**
 Sole lead engineer. A PWA that reads your vitals through your phone camera: point a finger at the lens,
 photoplethysmography picks up the blood-flow signal, and the app screens for heart disease risk. Careplix
 SDK for capture, D3 for the real-time visualisations. Shipped to a **25% lift in daily engagement**.
 
-**Koolio.ai — Adobe Audition, but in a browser tab**
+**Koolio.ai: Adobe Audition, but in a browser tab**
 Lead frontend on an AI audio editor built from scratch. Transcript-based editing (delete a word, the audio
 goes with it), waveform manipulation via WaveSurfer, FFmpeg in the pipeline. Thousands of users.
 
-**Symmulate Labs — founding engineer, acquired**
+**Symmulate Labs: founding engineer, acquired**
 EdTech AI tooling. Cut LLM and RVC voice model response times by **50%**, shipped **10+ chatbot interfaces**
-for education clients. The company was **acquired by Adda247** — my first exit, while still in college.
+for education clients. The company was **acquired by Adda247**, my first exit, while still in college.
 
-**Gastrogate AB (Sweden)** — rebuilt admin components and shipped fuzzy search for a Swedish food-tech
+**Gastrogate AB (Sweden)**: rebuilt admin components and shipped fuzzy search for a Swedish food-tech
 platform. **50% faster** search, **30%** more engagement.
 
-**ELabs KIIT** — led the team behind a quiz platform used by **2000+ students**, and taught frontend to
+**ELabs KIIT**: led the team behind a quiz platform used by **2000+ students**, and taught frontend to
 **1000+** of them in person.
 
 ---
 
 ## Things I build when nobody's paying me
 
-**[Graphe](https://usegraphe.com) — send in a team, not a prompt**
+**[Graphe](https://usegraphe.com): send in a team, not a prompt**
 My biggest build to date. An open-source agentic coding platform for the Mac desktop, built on
 [pi](https://github.com/earendil-works/pi). A full coding GUI: draw a run as blocks on a canvas and leave it
 to run in parallel (each in its own git worktree), helpers that work side-by-side, background jobs that
@@ -70,7 +70,7 @@ sandboxed with an undoable timeline. Local-first, MIT, your keys and any model w
 
 | Project | What it is |
 |---|---|
-| **[Graphe](https://usegraphe.com)** | Open-source agentic coding desktop built on pi — parallel agents, canvas runs, review-before-landing |
+| **[Graphe](https://usegraphe.com)** | Open-source agentic coding desktop built on pi, parallel agents, canvas runs, review-before-landing |
 | **[Cursor Gallery](https://cursor-gallery.vercel.app/)** | 100+ animated cursors for shadcn/ui |
 | **[NeonKit](https://get-neonkit.vercel.app/)** | Neon React components, copy-paste ready |
 | **[Caldy](https://caldy.vercel.app/)** | Calendar and task management, done properly |
@@ -106,7 +106,7 @@ Strongest where design meets engineering: motion, design systems, and interfaces
 
 <p align="center">
   If you're building something you care about, I'd love to hear about it.<br/>
-  My inbox is always open — for work, ideas, or just a good conversation about design.
+  My inbox is always open, for work, ideas, or just a good conversation about design.
 </p>
 
 <p align="center">
