@@ -68,9 +68,17 @@ it reads before it writes, and a browser beside the conversation it can drive it
 sandboxed with an undoable timeline. Local-first, MIT, your keys and any model with the cost in plain sight.
 [[Website](https://usegraphe.com) · [Source](https://github.com/AadiXC0DE/graphe) · [Releases](https://github.com/AadiXC0DE/graphe/releases)]
 
+**[Sift](https://usesift.xyz): email that keeps up with you**
+A keyboard-first Gmail client for Mac. Your mail is mirrored to your own machine by a Rust core, so search
+is instant, reading works offline, and the app stays out of your way. Every action has a key, every mistake
+is undoable, and tokens live in the macOS Keychain because there is no Sift server. Built with Tauri and
+React, open source under MIT, 16.9 MB with no bundled browser engine.
+[[Website](https://usesift.xyz) · [Source](https://github.com/AadiXC0DE/Sift) · [Download](https://github.com/AadiXC0DE/Sift/releases)]
+
 | Project | What it is |
 |---|---|
 | **[Graphe](https://usegraphe.com)** | Open-source agentic coding desktop built on pi, parallel agents, canvas runs, review-before-landing |
+| **[Sift](https://usesift.xyz)** | Keyboard-first Gmail client for Mac, Rust core, local-first and open source |
 | **[Cursor Gallery](https://cursor-gallery.vercel.app/)** | 100+ animated cursors for shadcn/ui |
 | **[NeonKit](https://get-neonkit.vercel.app/)** | Neon React components, copy-paste ready |
 | **[Caldy](https://caldy.vercel.app/)** | Calendar and task management, done properly |
