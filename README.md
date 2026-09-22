@@ -106,9 +106,12 @@ Strongest where design meets engineering: motion, design systems, and interfaces
 
 ## Writing
 
-- [From intern, to frontend developer, to selling a company](https://dev.to/aadixc0de/from-intern-to-frontend-developer-to-selling-a-company-in-college-16if)
-- [How I ended up lead dev on a Philips project in college](https://dev.to/aadixc0de/how-i-ended-up-working-as-a-lead-dev-for-a-philips-project-in-college-1j0d)
-- [Understanding the event loop in JavaScript](https://dev.to/aadixc0de/understanding-the-event-loop-in-javascript-made-simple-512b)
+All of it lives on [heyaadi.com](https://www.heyaadi.com/#writing) now.
+
+- [Making audio editing feel like editing a document](https://www.heyaadi.com/writing/koolio-browser-audio-editor)
+- [From intern, to frontend developer, to selling a company](https://www.heyaadi.com/writing/from-intern-to-selling-a-company)
+- [How I ended up lead dev on a Philips project in college](https://www.heyaadi.com/writing/lead-dev-for-a-philips-project)
+- [Understanding the event loop in JavaScript](https://www.heyaadi.com/writing/event-loop-in-javascript)
 
 ---
 
