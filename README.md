@@ -43,7 +43,8 @@ SDK for capture, D3 for the real-time visualisations. Shipped to a **25% lift in
 
 **Koolio.ai: Adobe Audition, but in a browser tab**
 Lead frontend on an AI audio editor built from scratch. Transcript-based editing (delete a word, the audio
-goes with it), waveform manipulation via WaveSurfer, FFmpeg in the pipeline. Thousands of users.
+goes with it), waveform manipulation via WaveSurfer, and an audio engine that runs in the browser so every
+edit lands instantly. Thousands of users.
 
 **Symmulate Labs: founding engineer, acquired**
 EdTech AI tooling. Cut LLM and RVC voice model response times by **50%**, shipped **10+ chatbot interfaces**
