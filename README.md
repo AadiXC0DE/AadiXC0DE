@@ -98,7 +98,7 @@ Plenty more sitting in private repos. I'll open-source them as they're ready.
 
 ## Stack
 
-`TypeScript` `React` `Next.js` `Node` `Tailwind` `Motion` `Three.js` `GraphQL` `Postgres` `MongoDB` `Python` `Go` `LangChain` `AWS`
+`TypeScript` `React` `Next.js` `Node` `Tailwind` `Motion` `Three.js` `GraphQL` `Postgres` `MongoDB` `Python` `Go` `Rust` `LangChain` `AWS`
 
 Strongest where design meets engineering: motion, design systems, and interfaces that hold up in production.
 
