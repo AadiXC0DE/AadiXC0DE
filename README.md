@@ -76,10 +76,18 @@ is undoable, and tokens live in the macOS Keychain because there is no Sift serv
 React, open source under MIT, 16.9 MB with no bundled browser engine.
 [[Website](https://usesift.xyz) · [Source](https://github.com/AadiXC0DE/Sift) · [Download](https://github.com/AadiXC0DE/Sift/releases)]
 
+**[Rune](https://rune.heyaadi.com): a coding agent in one small binary**
+A native coding agent harness for the terminal, written in Rust, about 3 MiB and 2 ms to start, with a build
+that fails if either number grows. Model and provider agnostic: no hosted service, no background daemon, no
+telemetry, no account. Every limit, rule and setting names the source that set it. One binary for the
+terminal, for scripts, and for embedding in other systems. Open source under Apache-2.0.
+[[Website](https://rune.heyaadi.com) · [Source](https://github.com/AadiXC0DE/Rune) · [Releases](https://github.com/AadiXC0DE/Rune/releases)]
+
 | Project | What it is |
 |---|---|
 | **[Graphe](https://usegraphe.com)** | Open-source agentic coding desktop built on pi, parallel agents, canvas runs, review-before-landing |
 | **[Sift](https://usesift.xyz)** | Keyboard-first Gmail client for Mac, Rust core, local-first and open source |
+| **[Rune](https://rune.heyaadi.com)** | Tiny native coding agent harness in Rust, provider agnostic, no daemon and no telemetry |
 | **[Cursor Gallery](https://cursor-gallery.vercel.app/)** | 100+ animated cursors for shadcn/ui |
 | **[NeonKit](https://get-neonkit.vercel.app/)** | Neon React components, copy-paste ready |
 | **[Caldy](https://caldy.vercel.app/)** | Calendar and task management, done properly |
