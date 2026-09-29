@@ -88,12 +88,12 @@ async function collect() {
         followers { totalCount }
         pullRequests(states: MERGED) { totalCount }
         contributionsCollection { contributionYears }
-        repositoriesContributedTo(contributionTypes:[COMMIT,PULL_REQUEST,REPOSITORY]) { totalCount }
         repositories(first:100, after:$after, ownerAffiliations:OWNER, isFork:false, orderBy:{field:STARGAZERS, direction:DESC}) {
           pageInfo { hasNextPage endCursor }
           totalCount
           nodes {
             stargazerCount
+            releases { totalCount }
             languages(first:8, orderBy:{field:SIZE, direction:DESC}) {
               edges { size node { name } }
             }
@@ -116,6 +116,7 @@ async function collect() {
             pageInfo { hasNextPage endCursor }
             nodes {
               stargazerCount
+              releases { totalCount }
               languages(first:8, orderBy:{field:SIZE, direction:DESC}) {
                 edges { size node { name } }
               }
@@ -156,8 +157,10 @@ async function collect() {
 
   const langTotals = new Map();
   let stars = 0;
+  let releases = 0;
   for (const repo of nodes) {
     stars += repo.stargazerCount;
+    releases += repo.releases.totalCount;
     for (const edge of repo.languages.edges) {
       langTotals.set(edge.node.name, (langTotals.get(edge.node.name) || 0) + edge.size);
     }
@@ -177,10 +180,10 @@ async function collect() {
 
   return {
     stars,
+    releases,
     repos: user.repositories.totalCount,
     followers: user.followers.totalCount,
     mergedPRs: user.pullRequests.totalCount,
-    contributedTo: user.repositoriesContributedTo.totalCount,
     commits,
     commitsThisYear,
     latestYear,
@@ -210,9 +213,9 @@ function statsCard(d) {
   const tiles = [
     ['Commits, all time', compact(d.commits)],
     ['Merged PRs', compact(d.mergedPRs)],
-    ['Repositories', compact(d.repos)],
+    ['Releases published', compact(d.releases)],
     [`Commits in ${d.latestYear}`, compact(d.commitsThisYear)],
-    ['Repos contributed to', compact(d.contributedTo)],
+    ['Repositories', compact(d.repos)],
     ['Years shipping', `${d.yearsShipping}`],
   ];
 
